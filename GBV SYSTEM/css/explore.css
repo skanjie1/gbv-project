@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  body {
+    font-family:  "Open sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background: #1c1c1c; */
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+}
+.topnav {
+    background: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .topnav a {
+    margin-right: 5px;
+    margin-left: 250px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: grey;
+    color: black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar{
+      display: flex;
+      justify-content: center;
+    }
+    .topnav a {
+       float: none;
+       width: 50%;
+       font-size: 10px;
+       margin-left: 1px;
+    }
+ }
+
+ #google_translate_element select{
+  background-color:#f6edfd;
+  color:#1c1c1c;
+  border: none;
+  border-radius:3px;
+  padding:6px 8px;
+  float: none;
+  width: 72%;
+  font-size: 12px;
+}
+
+  
+  .title {
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding-bottom: 80px;
+    background: #1c1c1c url("../images/hope.jpg") center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+  }
+  .title h1 {
+    margin: 50px 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+  }
+  .title h1 span {
+    font: 700 60px/1 "Dancing Script", cursive;
+    display: block;
+  }
+  .title h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 2px;
+  }
+  @media only screen and (min-width: 37.5em) {
+    .title h1 {
+      font-size: 50px;
+    }
+    .title h1 span {
+      font-size: 76px;
+    }
+    .title h2 {
+      width: 76%;
+      font-size: 18px;
+    }
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 96%;
+    max-width: 1120px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  .sectiontitle {
+    font-size: 24px;
+    color: #3b3b58;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin: 14px 0;
+  }
+  .sectionintro {
+    display: block;
+    text-align: center;
+    margin: 0 5% 30px;
+  }
+  @media only screen and (min-width: 43.75em) {
+    .sectionintro {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+  .contact {
+    color: #454545;
+    background: #f1f1f1;
+  }
+  
+  .box {
+    display: flex;
+    flex: 1 0 100%;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+  }
+  .boxgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .boxtitle {
+    font-family: "Montserrat", sans-serif;
+  }
+  .boxmore {
+    color: #ff4e5c;
+  }
+  .boxcontent {
+    color: #454545;
+    text-align: center;
+    padding: 20px;
+  }
+  .boxcontent > i {
+    color: #3b3b58;
+  }
+  .boxcontent:hover .boxmore {
+    color: #ff3545;
+  }
+  .boxcontent:hover .boxmore i {
+    padding-left: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  @media only screen and (min-width: 43.75em) {
+    .box {
+      flex: 0 0 30%;
+    }
+  }
+  
+  .btn {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 170px;
+    padding: 12px 18px;
+    border-radius: 100px;
+    background: #0F7948;
+  }
+  .btn:hover {
+    background: #1c1c1c;
+  }
+  
+  .footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background: #1c1c1c;
+  }
+  .footer p {
+    opacity: 0.65;
+  }

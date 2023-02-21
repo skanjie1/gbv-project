@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', sans-serif;
+}
+html{
+    background: #1C1C1C;
+    background: url(../images/loginbackground.jpeg);
+    background-size: cover;
+    min-height: 600px;
+}
+.container {
+    margin-left: 200px;
+    width: 70%;
+    margin-top: 100px;
+}
+.title{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #ffff;
+    text-align: center;
+  }
+.crimereport{
+  font-family: 'Ultra';
+  letter-spacing: 2px;
+}
+.toreport{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #aaa704;
+}
+hr{
+    margin-bottom: 20px;
+}
+.report{
+    max-width: 1000px;
+    width: 70%;
+    margin: 20px auto;
+}
+.report .form{
+    width: 100%;
+  }
+
+  .report .form .inputfield{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .report .form .inputfield label{
+     width: 200px;
+     color: white;
+     margin-right: 5px;
+     margin-left: 14px;
+    font-size: 14px;
+  }
+  
+  .report .form .inputfield .input,
+  .report .form .inputfield .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+  select{
+      border-radius: 50px;
+      border: 1px solid white;
+      font-size: 14px;
+      padding: 8px 10px;
+      color: grey;
+  }
+
+  
+  .inputBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .report .form .inputBtn .btn {
+    width: 100px;
+     padding: 8px 10px;
+     margin-right: 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  grey;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .report .form .inputBtn .btn:hover{
+      color: black; 
+  }

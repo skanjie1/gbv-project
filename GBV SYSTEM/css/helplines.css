@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+body {
+    font-family: "Open sans", sans-serif;
+    width: 100%;
+    min-height: 100%;
+    background: #EFEFEF;
+    background: url(../images/gbvhand.jpeg);
+    background-size: cover;
+}
+.container {
+    margin-left: 60px;
+    width: 87%;
+}
+.picture{
+    float: top;
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+  }
+.helplines{
+    font-family: "Ultra";
+    margin-top: 10px;
+    font-size: 0.5em;
+    margin-bottom: 30px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    color: #1c1c1c;
+}
+.headerone {
+    font-weight: bold;
+    font-family: "Ultra";
+    color: #1c1c1c;
+    margin-left: 140px;
+    font-size: 17px;
+}
+.description {
+    font-family: "Ultra";
+    margin-left: 140px;
+    font-size: 18px;
+}
+hr {
+    padding: 0.7px;
+    background-color: #1c1c1c;
+}

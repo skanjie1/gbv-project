@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', sans-serif;
+  /* font-family:'Ultra'; */
+}
+html {
+    height: 100%;
+    background-color: #1C1C1C;
+    /* background: url(../images/loginbackground.jpeg);
+    background-size: cover;
+    min-height: 600px; */
+  }
+  .title{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #ffff;
+    text-align: center;
+  }
+h1.crimereport {
+    font-family: 'Ultra';
+    letter-spacing: 4px;
+}
+p.toreport{
+    font-family: 'Ultra';
+    font-size: 1em;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    color: #aaa704;
+}
+p.description{
+    color: grey;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+select{
+  border-radius: 50px;
+  border: 1px solid white;
+  font-size: 14px;
+  padding: 8px 10px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.report{
+    max-width: 10000px;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.report .form{
+    width: 100%;
+  }
+
+  .report .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .report .form .inputfield label{
+     width: 200px;
+     color: white;
+     margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .report .form .inputfield .input,
+  .report .form .inputfield .textarea
+  {
+    width: 40%;
+    outline: none;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+
+  select.custom_select{
+    width: 40%;
+    outline: none;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+  
+  .inputBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .report .form .inputBtn .btn {
+    width: 100px;
+     padding: 8px 10px;
+     margin-right: 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  grey;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .report .form .inputBtn .btn:hover{
+      color: black; 
+  }
+  

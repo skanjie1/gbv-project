@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+  }
+  html{
+    background: rgba(0, 0, 0, 0.125);
+  }
+  .container{
+    align-items: center;
+    max-width: 30rem;
+    background: white;
+    margin: 13rem auto;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.125),
+      0px 0px 50px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+    justify-self: center;
+  }
+  .message{
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  .reportlink{
+    margin-top: 10px;
+    align-items: center;
+  }
+  .link{
+    margin: 10px;
+    color: red;
+  }

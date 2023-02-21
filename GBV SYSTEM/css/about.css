@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+body {
+    font-family: "Open sans", sans-serif;
+    width: 100%;
+    min-height: 100%;
+    background: #EFEFEF;
+    background: url(../images/gbvhand.jpeg);
+    background-size: cover;
+  }
+ 
+  .about {
+      font-family: "Ultra";
+      margin-top: 10px;
+      font-size: 0.5em;
+      margin-bottom: 30px;
+      letter-spacing: 0.5em;
+      text-align: center;
+      color: #1c1c1c;
+  }
+  .headerone {
+      font-weight: bold;
+      font-family: "Ultra";
+      color: #1c1c1c;
+      margin-left: 140px;
+      font-size: 17px;
+  }
+  .description {
+      font-family: "Ultra";
+      margin-left: 140px;
+      font-size: 18px;
+  }
+  .container {
+      margin-left: 60px;
+      width: 87%;
+  }
+
+  hr {
+      padding: 0.7px;
+      background-color: #1c1c1c;
+  }
+
+/* .sidenav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    background-color: #8e9da2;
+    margin-right: 0px;
+    padding-bottom: 500px;
+    position: fixed;
+}
+  
+  .sidenav a {
+    font-family: "Ultra";
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:#1c1c1c; 
+    display: block;
+    transition: 0.5s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  } */
+  .main {
+    padding: 0px 0px;
+    margin-right: 100px;
+  }
+.contact{
+    color: #d65b5b;
+}
+.contact:hover{
+    color: grey;
+}
+.stafftitle{
+    margin-top: 50px;
+    font-weight: bold;
+    color: maroon;
+}
+.picone{
+    margin: 10px 10px 50 px 10px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+}
+.sydney{
+    font-weight: bold;
+    margin-left: 210px;
+    margin-bottom: 1px;
+}
+.me{
+   margin-bottom: 0.1px;
+   margin-top: 0.1px;
+}
+
+.containertwo {
+    width:100%;
+    height:auto;
+    padding:1%;
+}
+.staffone {
+    float:left;
+    margin-left: 20px;
+}
+.staffone p {
+    width:100%;
+    float:left;
+}
+#email {
+    color:#d65b5b;
+}
+#email:hover {
+    color:grey;
+}

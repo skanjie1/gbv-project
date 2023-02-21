@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+  }
+  .admin{
+    display: flex;
+    justify-content: center;
+  }
+  .topnav{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .welcome a{
+    color:grey;
+    text-decoration: none;
+    font-size: 13px;
+      
+  }
+  #logout a{
+    color: black;
+  }
+
+  /* .signin, .login{
+    width: 80px;
+    padding: 8px 8px;
+    margin-right: 10px;
+    font-size: 12px; 
+    border: 0px;
+    background:  grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .btn:hover{
+    color: black;
+  } */

@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', sans-serif;
+}
+
+html {
+    height: 100%;
+    background-color: #1C1C1C;
+    background: url(../images/loginbackground.jpeg);
+    background-size: cover;
+    min-height: 600px;
+  }
+  
+.title{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #ffff;
+    text-align: center;
+  }
+h1.signin {
+    font-family: 'Ultra';
+    letter-spacing: 4px;
+}
+p.description{
+    font-size: 1em;
+    margin-top: 20px;
+    letter-spacing: 10px;
+    color: #aaa704;
+}
+.register{
+    max-width: 1000px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.register .form{
+    width: 100%;
+  }
+
+  .register .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .register .form .inputfield label{
+     width: 200px;
+     color: white;
+     margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .register .form .inputfield .input,
+  .register .form .inputfield .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+  
+  .inputBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .register .form .inputBtn .btn {
+    width: 100px;
+     padding: 8px 10px;
+     margin-right: 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  grey;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .register .form .inputBtn .btn:hover{
+      color: black; 
+  }
+  
+  
+  @media (max-width:420px) {
+    .register .form .inputfield{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .register .form .inputfield label{
+      margin-bottom: 5px;
+    }
+  }
+  
+  .register .form .inputfield .input.error {
+    border: 1px solid #e74c3c;
+  }
+  
+  .small {
+    margin-left: 1rem;
+    color: red;
+  }
+  
